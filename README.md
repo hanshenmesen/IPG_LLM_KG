@@ -1,6 +1,6 @@
 # 政府招商引资知识图谱（Investment Promotion Knowledge Graph）
 
-本项目用于构建政府招商引资领域知识图谱，数据由大语言模型抽取而来，政策文件下载自北大法宝平台。
+本项目用于构建政府招商引资领域知识图谱，数据由大语言模型辅助抽取而来，政策文件下载自北大法宝平台。
 
 ## 数据说明
 
@@ -26,12 +26,6 @@
 - 默认端口：7687
 
 安装后启动Neo4j服务，具体参考[Neo4j官方文档](https://neo4j.com/docs/operations-manual/current/installation/)。
-
-安装依赖：
-
-```bash
-pip install pandas py2neo
-```
 
 ## 使用方法
 
